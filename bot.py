@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 import yt_dlp
 from webhook import start_webhook
 
-from modules.rss.rss import news_feed_loop, format_rss_entry, extract_youtube_watch_url
+from module.rss.rss import news_feed_loop, format_rss_entry, extract_youtube_watch_url
 
 
 mongo_client = pymongo.MongoClient(MONGO_URI)
